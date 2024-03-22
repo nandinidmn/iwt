@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div style="background-image: url('bg-2.jpg');" class="bg1">
+    <form action="/action_page.php" class="form-container" >
+        <span class="form-popup">
+        <h2 class="center">REGISTRATION </h2>                      
+        <div ><label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="" placeholder="Enter your first name">
+        <label for="lname" class="space">Last name:</label>
+        <input type="text" id="lname" name="lname" value="" placeholder="Enter your last name" >
+    </div>
+    <div><label for="uname">Username:</label>
+        <input type="text" id="uname" name="uname" value="" placeholder="Enter your username" >
+        <label for="pass" class="space">Password:</label>
+        <input type="password" id="pass" name="pass" value="" placeholder="Enter your password">
+    </div>
+    <div><label for="no.">Phone no.</label>
+        <input type="text" id="no." name="no." value="" placeholder="Enter your number">
+        <label for="country" class="space">Select Country</label>
+        <select name="country" id="country" >
+            <option value="India">India</option>
+            <option value="Germany">Germany</option>
+            <option value="Spain" >Spain</option>
+            <option value="France">France</option>
+            <option value="Mexico">Mexico</option>
+            <option value="UK">UK</option>
+            <option value="Russia">Russia</option>
+            <option value="Italy">Italy</option>
+            <option value="China">China</option>
+
+          </select>
+    </div>
+    <h4>Select your gender:</h4>
+    <input type ="radio" id="male" name="gender" value="Male" checked>
+    <label for="male" >MALE</label>
+    <input type ="radio" id="Female" name="gender" value="Male" >
+    <label for="female" >FEMALE</label>
+    <input type ="radio" id="other" name="gender" value="Male" >
+    <label for="other" >OTHER</label><br>
+    <button onclick="myFunction()">Submit</button>
+    </span>
+    </form>
+    <script>
+        function myFunction() {
+          alert("Successfully Submitted!!");
+        }
+        </script>
+
+    
+</div>
+</body>
+</html>
